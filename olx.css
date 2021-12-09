@@ -1,0 +1,519 @@
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.topbar{
+    width: 1536px;
+    height: 70px;
+    background-color: white;
+    position: fixed;
+    box-shadow:0px 0px 5px rgb(185, 184, 184);
+    top: 0;
+    z-index: 1;
+}
+.innertop{
+    width: 1400px;
+    height: 70px;
+    position: fixed;
+    margin-left: 110px;
+    background-color: white;
+    
+}
+.logo{
+    width: 45px;
+    padding: 20px;
+}
+.selectboxin{
+    width: 220px;
+    height: 41px;
+    margin-top: 5px;
+    font-size: medium;
+    background: transparent;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+}
+.img{
+    float: left;
+}
+.select{
+    width: 271px;
+    
+    height: 41px;
+    margin-top: 13px;
+    border: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    float: left;
+}
+.svgsearch{
+    padding: 8px;
+}
+.search{
+    float: left;
+}
+.searchbox{
+    width: 531px;
+    margin-left: 12px;
+    height: 41px;
+    margin-top: 13px;
+    border: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    float: left;
+
+}
+.searchsign{
+    float: right;
+    background-color: black;
+   height: 41px;
+   width: 44px;
+   color: aliceblue;
+}
+.innersearch{
+    width: 21px;
+    padding: 10px;
+    background-color:#002f34;
+}
+.textbox{
+    width: 481px;
+    height: 39px;
+    border: none;
+    border-radius: 2px;
+    text-indent: 10px;
+    font-size: medium;
+}
+.language{width: 90px;
+    margin-top: 25px;
+    margin-left: 20px;
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+.message{
+    padding: 22px;
+    padding-left: 10px;
+    float: left;
+}
+
+.bell{
+    padding-top: 22px;
+    width: 50px;
+    height:41px;
+    float: left;
+}
+.account{
+    
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 0%;
+    float: left;
+}
+.accimg{
+    width: 40px;
+    height: 40px;
+    
+}
+.downarrow{
+    margin-top: 30px;
+    width: 30px;
+    float: left;
+}
+.subbar{
+    margin-left: 120px;
+    width: 1536px;
+    height: 30px;
+    
+}
+.subbar1{
+    
+    width: 1236px;
+    height: 40px;
+    
+    
+    
+}
+.ad{
+    box-shadow:0px 0px 5px rgb(185, 184, 184);
+    background: url(hero_bg_in@1x.png);
+    background-position: center;
+    height:134px;
+    overflow-y: hidden;
+}
+.category{
+    
+    font-weight: bold;
+    float: left;
+}
+.sub1{
+    margin-left: 10px;
+    width: 143px;
+    float: left;
+}
+.downarrow1{
+    
+    width:20px;
+    float: left;
+    
+}
+.cars{
+    margin-top: 80px;
+    padding-left: 100px;
+    text-decoration: none;
+    font-size: 14px;
+}
+a{color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.moreoncarsmain{
+    width: 1536px;
+    height: 357px;
+    
+}
+.moreoncars{
+    margin-left: 10%;
+    margin-top: 60px;
+    height: 357px;
+    width: 80%;
+    background-color: #ebeeef;
+    overflow: hidden;
+    border: solid;
+    border-width: 1px;
+    border-color: #a5a3a3;
+}
+.card1{
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 270px;
+    height: 266px;
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    border-width: thin;
+    border-radius: 4px;
+    border-color: #a5a3a3;
+    overflow: hidden;
+    
+    float: left;
+    
+}
+.card2{
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 270px;
+    height: 266px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    
+    border: solid;
+    border-width: thin;
+    border-radius: 4px;
+    border-color: #a5a3a3;
+    float: left;
+    
+    
+}
+.card3{
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 270px;
+    height: 266px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    border-width: thin;
+    border-radius: 4px;
+    border-color: #a5a3a3;
+    
+    
+    
+}
+.card4{
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 270px;
+    height: 266px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    border-width: thin;
+    border-radius: 4px;
+    border-color: #a5a3a3;
+    
+    
+}
+.inner{
+    background-color: rgb(255, 255, 255);
+    height: 160px;
+    margin: 10px;
+    margin-right: 10px;
+}
+.outer{
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+}
+.img1{
+    
+    width: 250px;
+    
+    position: absolute;
+    height: 150px;
+}
+.price{
+    margin-left: 15px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.year{
+    margin-left: 15px;
+    font-size: 15px; 
+}
+.desc{
+    margin-left: 15px;
+    font-size: 15px;
+    color: #a5a3a3;
+}
+.more{
+    margin-top: 40px;
+    float: left;
+    font-size: x-large;
+}
+.moreclass{
+    height: 60PX;
+}
+.lab{
+    margin-top: 80px;
+    margin-left: 25px;
+    font-size: x-large;
+}
+
+.classifieds{
+    width:1232px;
+    height: 800px;
+    margin-left: 153px;
+    margin-top: 80px;
+   
+}
+.fresh{
+    height: 10px;
+    float: left;
+    width: 500px;
+    margin-left: 180px;
+    margin-top: 50px;
+    font-size: x-large;
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.row1{
+    width: 1232px;
+    height: 286px;
+    float: left;
+    display: block;
+    
+}
+.row2{
+    width: 1232px;
+    height: 286px;
+    float: left;
+    display: block;
+    
+}
+.row3{
+    width: 1232px;
+    height: 286px;
+    float: left;
+    display: block;
+    
+}
+.adtext{
+    margin-left: 540px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    width: 250px;
+    color: #fff;
+    float: left;
+    
+}
+.adbuttons5{
+    float: left;
+    
+    height: 50px;
+    width: 200px;
+    display: inline;
+    margin-top: 55px;
+    margin-left: 90px;
+}
+.adbutton1{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: large;
+    font-weight: bold;
+    background-color: #ffff;
+    border: solid;
+    border-color: #ffff;
+    border-radius: 4px;
+}
+.load{
+    display: block;
+    width: 80%;
+    padding-top: 100px;
+    padding-left: 720px;
+    padding-bottom: 100px;
+}
+.loadmore{
+    padding: 10px 10px;
+    font-size: larger;
+    font-weight: bold;
+    border: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    background-color: #ffff;
+}
+.bottomad1{
+    width: 1536px;
+    height: 200px;
+    background-color: #eeeeee;
+}
+.adimage{
+    width: 432px;
+    height: 198px;
+    background-image: url("https://statics.olx.in/external/base/img/phone-app.png");
+    background-position: center;
+    margin-left: 200px;
+    float: left;
+    overflow: hidden;
+}
+.adtextb{
+    width: 500px;
+    height: 130px;
+    float: left;
+    margin-top: 20px;
+    padding: 30px;
+    padding-right: 0px;
+    padding-bottom: 0ex;
+    border-right: solid;
+    border-width: 1px;
+    border-color: #a5a3a3;
+    
+}
+.try{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.baddesc{
+    margin-top: 30px;
+    margin-left: 55px;
+    font-size: 20px;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.adtextbleft{
+    width: 350px;
+    height: 100px;
+    
+    float: left;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.get{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.apple{
+    width: 130px;
+}
+.footer1{
+    width: 1536px;
+    height: 168px;
+    background-color: rgba(0,47,52,.2);
+}
+.footer2{
+    width: 1536px;
+    height: 30px;
+    background-color: #002f34;
+}
+.location{
+    width: 250px;
+    height:130px ;
+    
+    float: left;
+    overflow: hidden;
+    padding: 10px;
+}
+.location1{
+    width: 160px;
+    height:100px ;
+    padding-top: 10px;
+    float: left;
+    overflow: hidden;
+    
+}
+.lab1{
+    
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.locul{
+    font-size: 13px;
+    text-decoration: none;
+    color: #797878;
+}
+ul{
+    list-style: none;
+    padding: 0%;
+}
+.footer2{
+    padding-top: 5px;
+    padding-left: 80px;
+    color: #ffff;
+    font-size: 14px;
+    
+}
+.footer21{
+    padding-top: 5px;
+    padding-left: 80px;
+    color: #ffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.footerlink{
+    padding-top: 10px;
+    padding-left: 20px;
+    color: #ffff;
+}
+.view{
+    font-weight: bold;
+    float: right;
+    margin-right: 10px;
+    text-decoration: underline   ;
+}
+.mainbutton{
+    margin-top: 10px;
+    float: left;
+}
+.mbutton{
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 999px;
+    border-width: 5px;
+    border-color: blue yellow cyan;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    }
