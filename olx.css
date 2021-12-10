@@ -516,4 +516,17 @@ ul{
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
-    }
+}
+.loc{
+    display: block;
+    font-size: 10px;
+    position: relative;
+    top: 6px;
+    left: 13px;
+    color: #797878;
+}
+.Heart{
+    position: relative;
+    top: -255px;
+    left: 240px;
+}
